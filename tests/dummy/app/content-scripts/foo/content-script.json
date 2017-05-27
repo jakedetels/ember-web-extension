@@ -1,0 +1,10 @@
+{
+  "context": "x-ray", // "x-ray", "native", or "iframe"
+  "run_at": "document_idle", // "document_start", "document_end", or "document_idle"
+  "include_globs": [],
+  "exclude_globs": [],
+  "matches": [],
+  "exclude_matches": [],
+  "match_about_blank": false,
+  "all_frames": false
+}

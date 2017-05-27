@@ -2,6 +2,11 @@
 
 module.exports = function(environment) {
   var ENV = {
+    emberWebExtension: {
+      jakers: 'joshers',
+      foo: 'bar',
+      baz: 'baz'
+    },
     modulePrefix: 'dummy',
     environment: environment,
     rootURL: '/',

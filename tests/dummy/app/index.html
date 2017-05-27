@@ -7,6 +7,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!--<script>
+      context = 'browser-popup';
+    </script>-->
+
+    {{content-for "environment"}}
+
     {{content-for "head"}}
 
     <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
@@ -21,5 +27,15 @@
     <script src="{{rootURL}}assets/dummy.js"></script>
 
     {{content-for "body-footer"}}
+
+    <script>
+      // setTimeout(function() {
+      //   ApplicationRoute.transitionTo('sidebar');
+      // }, 1000);
+
+      // Dummy.addObserver('ready', function() {
+      //   debugger;
+      // });
+    </script>
   </body>
 </html>

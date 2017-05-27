@@ -1,6 +1,2 @@
 /* eslint-env node */
-'use strict';
-
-module.exports = {
-  name: 'ember-web-extension'
-};
+module.exports = require('./lib');

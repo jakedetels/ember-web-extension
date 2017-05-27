@@ -2,9 +2,12 @@
 const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 module.exports = function(defaults) {
+  console.log('ember-cli-build.js start');
   var app = new EmberAddon(defaults, {
-    // Add options here
+    autoRun: true
   });
+
+  console.log('ember-cli-build.js before app.toTree');
 
   /*
     This build file specifies the options for the dummy test app of this

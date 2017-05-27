@@ -1,0 +1,5 @@
+{
+  "default_title": "Click here!",
+  "browser_style": true,
+  "default_area": "navbar" // "navbar" (default), "menupanel", "tabstrip", or "personaltoolbar"
+}
