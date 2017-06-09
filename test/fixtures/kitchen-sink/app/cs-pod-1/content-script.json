@@ -1,3 +1,4 @@
 {
-  "name": "cs-pod-1"
+  "name": "cs-pod-1",
+  "matches": ["*://*.example.org/*"]
 }

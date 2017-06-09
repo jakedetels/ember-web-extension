@@ -3,6 +3,7 @@
 # compiled output
 /dist
 /tmp
+/tmp-test
 
 # dependencies
 /node_modules
@@ -10,6 +11,7 @@
 
 # misc
 /.vscode
+/.idea
 /.sass-cache
 /connect.lock
 /coverage/*

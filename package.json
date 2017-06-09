@@ -16,7 +16,8 @@
     "build": "ember build",
     "start": "ember server",
     "xtest": "ember try:each",
-    "test": "nodemon -x mocha --no-timeouts --colors test/**/*-test.js",
+    "test:node": "mocha --no-timeouts --colors test/**/*-test.js",
+    "test:nodemon": "nodemon -x mocha --no-timeouts --colors test/**/*-test.js",
     "test:ci": "nodemon"
   },
   "dependencies": {
